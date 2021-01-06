@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  height: 400px;
+  width: 400px;
+  border-radius: 3px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 4px;
+}
+
+.cell {
+  background-color: #fafafadd;
+  border-radius: 3px;
+  box-shadow: 3px 8px 15px #3338;
+  transition: 100ms ease-in-out;
+
+  font-family: "Press Start 2P";
+  font-size: 5rem;
+  line-height: 0;
+  color: #777;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  transition: 100ms ease-in-out;
+  background-color: #fafafa;
+}
